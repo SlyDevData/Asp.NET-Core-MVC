@@ -33,12 +33,9 @@ namespace BookStore
 
              app.UseEndpoints(endpoints =>
              {
-                
-                  endpoints.MapDefaultControllerRoute();
-               
+                endpoints.MapDefaultControllerRoute();
              });
-
-        
+             
         }
     }
 }
